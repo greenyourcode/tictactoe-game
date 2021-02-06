@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 200px;
+    height: 200px;
+  }
+app-case {
+  border: 1px gray solid;
+}
+ 

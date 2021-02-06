@@ -1,0 +1,8 @@
+<h1>TicTacToe</h1>
+<div class="wrapper">
+  <app-case *ngFor="let item of matrix; let i=index" 
+  (clickCaseAction)="onClickCase(i)" [indexCase]="i" [value]="item"></app-case>
+</div>
+<p *ngIf="winner">
+  Le gagnant est le joueur : {{ winner }}
+</p>
